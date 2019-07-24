@@ -5,3 +5,4 @@
 (reduce_to_total(source_array) .to eq(6)
 (reduce_to_total(source_array, starting_point)) .to eq (106)
 (reduce_to_all_true(source_array)) .to be_truthy
+(reduce_to_all_true(source_array)) .to be_falsy
